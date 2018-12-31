@@ -61,6 +61,3 @@ Select STR(187.369,6,2)
 
 SELECT  Substring('state',1,4); 
 
-/*
-test git push
-*/
