@@ -2,6 +2,7 @@
 List of all TSQL Functions
 */
 
+
 /*
 =================
 Numeric Functions
