@@ -212,8 +212,6 @@ WHERE i.[Type] = 'c2000'
 ORDER BY ROW_NUMBER() OVER(PARTITION BY i.[SyStudentId],
                                         i.[AwardYear] ORDER BY i.TransactionNumber DESC,
                                                                c.isccode DESC);
---add coa
---code
 
 --Final ouptut
 SELECT s.SyStudentid,
